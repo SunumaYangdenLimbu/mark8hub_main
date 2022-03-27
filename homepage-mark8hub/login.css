@@ -1,0 +1,68 @@
+/* root asets */
+:root {
+    --clr-primary: hsl(205, 89%, 39%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(245, 238, 225, 0.8);
+}
+
+
+
+.logo {
+    height: 5rem;
+    width: 11rem;
+    object-fit: contain;
+}
+
+.category_select {
+    height: 35px;
+    width: 80px;
+    color: black;
+    background: white;
+    border: 1px solid #31a7e7;
+    outline: none;
+}
+
+span {
+    background: #31a7e7;
+    padding: 8.5px;
+    color: white;
+}
+
+
+.language-selection {
+    height: 38px;
+    width: 80px;
+    border: none;
+    color: black;
+}
+
+.sign-up {
+    height: 20px;
+    width: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+}
+
+.language-login-signUp {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    padding: 10px 15px 10px 15px;
+    transition: 0.5 ease-in-out;
+}

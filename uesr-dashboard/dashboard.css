@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: hsl(205, 89%, 39%);
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 60px;
+}
+
+.logo-wrapper {
+    border-bottom: 1px solid gainsboro;
+    padding: 12px;
+}
+
+.menu {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.wrapper {
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/* .wrapper a:active{
+    background: darkblue;
+    color: green;
+    margin-left: 0;
+} */
+
+.container {
+    display: flex;
+}
+
+.side-section {
+    width: 20%;
+    height: 100vh;
+    background: #242939;
+}
+
+.main-section-outer {
+    width: 1000px;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.main-section-inner1 {
+    width: 1000px;
+    height: 80px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.myprofile-section {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #242939;
+}
+
+.menu-section-inner1 {
+    height: 2px;
+    width: 30px;
+    background: black;
+    margin: 5px;
+}
+
+.main-section-inner3 {
+    display: flex;
+    margin-top: 100px;
+    justify-content: left;
+    /* align-items: center; */
+
+}
+
+.main-section-inner3 a {
+    margin: 15px;
+    padding: 10px;
+    color: #242939;
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+.main-section-inner3 a:hover {
+    background: #fff;
+}
+
+
+/* My profile */
+
+.myprofile-container {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 15px;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.addressbook-container {
+    margin-top: 10px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 15px;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.payment-container {
+    margin-top: 10px;
+    margin-left: 275px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 15px;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+
+.input {
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding-left: 10px;
+}
